@@ -2,4 +2,4 @@
 
 <https://n-harley.github.io/debussy-syrinx/>
 
-Notebook [here](https://nbviewer.jupyter.org/github/n-harley/debussy-syrinx/syrinx.ipynb)
+Notebook [here](https://nbviewer.jupyter.org/github/n-harley/debussy-syrinx/blob/main/syrinx.ipynb)
