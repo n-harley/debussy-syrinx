@@ -2,4 +2,6 @@
 
 <https://n-harley.github.io/debussy-syrinx/>
 
+an example abstract representation of music using [CHAKRA](http://www.n-harley.github.io/chakra-ontology/)
+
 Notebook [here](https://nbviewer.jupyter.org/github/n-harley/debussy-syrinx/blob/main/syrinx.ipynb)
