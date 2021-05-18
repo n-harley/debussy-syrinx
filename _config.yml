@@ -1,0 +1,19 @@
+plugins:
+  - jekyll-relative-links
+  - jekyll-jupyter-notebook
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
+theme: jekyll-theme-minimal
+description: This repository contains preliminary experiements investigating the use of statistical models to detect sub-task boundaries in data describing the behaviour of agents in minimalistic gridword environments.
+logo: logo.png
+show_downloads: "true"

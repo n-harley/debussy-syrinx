@@ -1,0 +1,5428 @@
+{
+    "@context": "http://localhost:8888/examples/syrinx/context.json",
+    "id": "",
+    "description": "midi score",
+    "type": "Constituent",
+    "hasPart": [
+	{
+	    "id": "#note0",
+	    "type": "Constituent",
+	    "description": "#note0",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 0,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note1",
+	    "type": "Constituent",
+	    "description": "#note1",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 0.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note2",
+	    "type": "Constituent",
+	    "description": "#note2",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 0.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note3",
+	    "type": "Constituent",
+	    "description": "#note3",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 1,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note4",
+	    "type": "Constituent",
+	    "description": "#note4",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 1.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note5",
+	    "type": "Constituent",
+	    "description": "#note5",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 1.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note6",
+	    "type": "Constituent",
+	    "description": "#note6",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 2,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note7",
+	    "type": "Constituent",
+	    "description": "#note7",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 2.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note8",
+	    "type": "Constituent",
+	    "description": "#note8",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 2.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note9",
+	    "type": "Constituent",
+	    "description": "#note9",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 2.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note10",
+	    "type": "Constituent",
+	    "description": "#note10",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 3,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note11",
+	    "type": "Constituent",
+	    "description": "#note11",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 3.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note12",
+	    "type": "Constituent",
+	    "description": "#note12",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 3.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note13",
+	    "type": "Constituent",
+	    "description": "#note13",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 4,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.9979,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note14",
+	    "type": "Constituent",
+	    "description": "#note14",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 6,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note15",
+	    "type": "Constituent",
+	    "description": "#note15",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 6.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note16",
+	    "type": "Constituent",
+	    "description": "#note16",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 6.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note17",
+	    "type": "Constituent",
+	    "description": "#note17",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 7,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note18",
+	    "type": "Constituent",
+	    "description": "#note18",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 7.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note19",
+	    "type": "Constituent",
+	    "description": "#note19",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 7.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note20",
+	    "type": "Constituent",
+	    "description": "#note20",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 8,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note21",
+	    "type": "Constituent",
+	    "description": "#note21",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 8.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note22",
+	    "type": "Constituent",
+	    "description": "#note22",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 8.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note23",
+	    "type": "Constituent",
+	    "description": "#note23",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 8.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note24",
+	    "type": "Constituent",
+	    "description": "#note24",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 9,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note25",
+	    "type": "Constituent",
+	    "description": "#note25",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 9.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note26",
+	    "type": "Constituent",
+	    "description": "#note26",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 9.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note27",
+	    "type": "Constituent",
+	    "description": "#note27",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 10,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.66458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note28",
+	    "type": "Constituent",
+	    "description": "#note28",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 10.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note29",
+	    "type": "Constituent",
+	    "description": "#note29",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 10.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note30",
+	    "type": "Constituent",
+	    "description": "#note30",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 11,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note31",
+	    "type": "Constituent",
+	    "description": "#note31",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 11.167,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note32",
+	    "type": "Constituent",
+	    "description": "#note32",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 11.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note33",
+	    "type": "Constituent",
+	    "description": "#note33",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 11.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note34",
+	    "type": "Constituent",
+	    "description": "#note34",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 11.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.08125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note35",
+	    "type": "Constituent",
+	    "description": "#note35",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 11.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.08125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note36",
+	    "type": "Constituent",
+	    "description": "#note36",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 11.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note37",
+	    "type": "Constituent",
+	    "description": "#note37",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 12,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note38",
+	    "type": "Constituent",
+	    "description": "#note38",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 12.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note39",
+	    "type": "Constituent",
+	    "description": "#note39",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 12.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note40",
+	    "type": "Constituent",
+	    "description": "#note40",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 13,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note41",
+	    "type": "Constituent",
+	    "description": "#note41",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 14.167,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note42",
+	    "type": "Constituent",
+	    "description": "#note42",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 14.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note43",
+	    "type": "Constituent",
+	    "description": "#note43",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 14.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note44",
+	    "type": "Constituent",
+	    "description": "#note44",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 14.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note45",
+	    "type": "Constituent",
+	    "description": "#note45",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 14.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note46",
+	    "type": "Constituent",
+	    "description": "#note46",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 15.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note47",
+	    "type": "Constituent",
+	    "description": "#note47",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 16,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 3.9979,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note48",
+	    "type": "Constituent",
+	    "description": "#note48",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 20,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note49",
+	    "type": "Constituent",
+	    "description": "#note49",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#6",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 21,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.9979,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note50",
+	    "type": "Constituent",
+	    "description": "#note50",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 23,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note51",
+	    "type": "Constituent",
+	    "description": "#note51",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 24,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note52",
+	    "type": "Constituent",
+	    "description": "#note52",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 24.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note53",
+	    "type": "Constituent",
+	    "description": "#note53",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 24.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note54",
+	    "type": "Constituent",
+	    "description": "#note54",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note55",
+	    "type": "Constituent",
+	    "description": "#note55",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 25.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note56",
+	    "type": "Constituent",
+	    "description": "#note56",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 25.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note57",
+	    "type": "Constituent",
+	    "description": "#note57",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 26,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note58",
+	    "type": "Constituent",
+	    "description": "#note58",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 26.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note59",
+	    "type": "Constituent",
+	    "description": "#note59",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 26.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note60",
+	    "type": "Constituent",
+	    "description": "#note60",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 26.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note61",
+	    "type": "Constituent",
+	    "description": "#note61",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 27,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note62",
+	    "type": "Constituent",
+	    "description": "#note62",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 27.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note63",
+	    "type": "Constituent",
+	    "description": "#note63",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 27.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note64",
+	    "type": "Constituent",
+	    "description": "#note64",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 28,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note65",
+	    "type": "Constituent",
+	    "description": "#note65",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 28.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note66",
+	    "type": "Constituent",
+	    "description": "#note66",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 28.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note67",
+	    "type": "Constituent",
+	    "description": "#note67",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 29,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note68",
+	    "type": "Constituent",
+	    "description": "#note68",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 29.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note69",
+	    "type": "Constituent",
+	    "description": "#note69",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 29.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note70",
+	    "type": "Constituent",
+	    "description": "#note70",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 29.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note71",
+	    "type": "Constituent",
+	    "description": "#note71",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 30,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note72",
+	    "type": "Constituent",
+	    "description": "#note72",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 30.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10417,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note73",
+	    "type": "Constituent",
+	    "description": "#note73",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 30.356,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.13958,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note74",
+	    "type": "Constituent",
+	    "description": "#note74",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 30.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note75",
+	    "type": "Constituent",
+	    "description": "#note75",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 30.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note76",
+	    "type": "Constituent",
+	    "description": "#note76",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 31,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.2479,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note77",
+	    "type": "Constituent",
+	    "description": "#note77",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 32.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note78",
+	    "type": "Constituent",
+	    "description": "#note78",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 32.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note79",
+	    "type": "Constituent",
+	    "description": "#note79",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 32.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note80",
+	    "type": "Constituent",
+	    "description": "#note80",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note81",
+	    "type": "Constituent",
+	    "description": "#note81",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33.125,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note82",
+	    "type": "Constituent",
+	    "description": "#note82",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note83",
+	    "type": "Constituent",
+	    "description": "#note83",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33.375,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note84",
+	    "type": "Constituent",
+	    "description": "#note84",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.060417,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note85",
+	    "type": "Constituent",
+	    "description": "#note85",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33.563,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.060417,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note86",
+	    "type": "Constituent",
+	    "description": "#note86",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33.625,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note87",
+	    "type": "Constituent",
+	    "description": "#note87",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note88",
+	    "type": "Constituent",
+	    "description": "#note88",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 33.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note89",
+	    "type": "Constituent",
+	    "description": "#note89",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 34,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.4979,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note90",
+	    "type": "Constituent",
+	    "description": "#note90",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 35.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note91",
+	    "type": "Constituent",
+	    "description": "#note91",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 35.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note92",
+	    "type": "Constituent",
+	    "description": "#note92",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 35.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note93",
+	    "type": "Constituent",
+	    "description": "#note93",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 36,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.62292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note94",
+	    "type": "Constituent",
+	    "description": "#note94",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 36.625,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note95",
+	    "type": "Constituent",
+	    "description": "#note95",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 36.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note96",
+	    "type": "Constituent",
+	    "description": "#note96",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 36.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note97",
+	    "type": "Constituent",
+	    "description": "#note97",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 37,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.62292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note98",
+	    "type": "Constituent",
+	    "description": "#note98",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 37.625,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note99",
+	    "type": "Constituent",
+	    "description": "#note99",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 37.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note100",
+	    "type": "Constituent",
+	    "description": "#note100",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 37.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note101",
+	    "type": "Constituent",
+	    "description": "#note101",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 38,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.62292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note102",
+	    "type": "Constituent",
+	    "description": "#note102",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 38.625,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note103",
+	    "type": "Constituent",
+	    "description": "#note103",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 38.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note104",
+	    "type": "Constituent",
+	    "description": "#note104",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 38.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note105",
+	    "type": "Constituent",
+	    "description": "#note105",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 39,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note106",
+	    "type": "Constituent",
+	    "description": "#note106",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 39.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note107",
+	    "type": "Constituent",
+	    "description": "#note107",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 39.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note108",
+	    "type": "Constituent",
+	    "description": "#note108",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 39.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note109",
+	    "type": "Constituent",
+	    "description": "#note109",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 40,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note110",
+	    "type": "Constituent",
+	    "description": "#note110",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 41,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note111",
+	    "type": "Constituent",
+	    "description": "#note111",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 41.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note112",
+	    "type": "Constituent",
+	    "description": "#note112",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 42,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note113",
+	    "type": "Constituent",
+	    "description": "#note113",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 42.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note114",
+	    "type": "Constituent",
+	    "description": "#note114",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 42.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note115",
+	    "type": "Constituent",
+	    "description": "#note115",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 42.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note116",
+	    "type": "Constituent",
+	    "description": "#note116",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 43,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note117",
+	    "type": "Constituent",
+	    "description": "#note117",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 43.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note118",
+	    "type": "Constituent",
+	    "description": "#note118",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 43.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note119",
+	    "type": "Constituent",
+	    "description": "#note119",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 43.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note120",
+	    "type": "Constituent",
+	    "description": "#note120",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 44,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note121",
+	    "type": "Constituent",
+	    "description": "#note121",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 44.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note122",
+	    "type": "Constituent",
+	    "description": "#note122",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 44.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note123",
+	    "type": "Constituent",
+	    "description": "#note123",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 44.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note124",
+	    "type": "Constituent",
+	    "description": "#note124",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 45,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note125",
+	    "type": "Constituent",
+	    "description": "#note125",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 45.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note126",
+	    "type": "Constituent",
+	    "description": "#note126",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 45.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note127",
+	    "type": "Constituent",
+	    "description": "#note127",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 45.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note128",
+	    "type": "Constituent",
+	    "description": "#note128",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a#3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 46,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note129",
+	    "type": "Constituent",
+	    "description": "#note129",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 46.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note130",
+	    "type": "Constituent",
+	    "description": "#note130",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 47,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note131",
+	    "type": "Constituent",
+	    "description": "#note131",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 47.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note132",
+	    "type": "Constituent",
+	    "description": "#note132",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 48,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note133",
+	    "type": "Constituent",
+	    "description": "#note133",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 48.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note134",
+	    "type": "Constituent",
+	    "description": "#note134",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 48.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note135",
+	    "type": "Constituent",
+	    "description": "#note135",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 48.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note136",
+	    "type": "Constituent",
+	    "description": "#note136",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 49,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note137",
+	    "type": "Constituent",
+	    "description": "#note137",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 50,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note138",
+	    "type": "Constituent",
+	    "description": "#note138",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 51,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note139",
+	    "type": "Constituent",
+	    "description": "#note139",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 51.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note140",
+	    "type": "Constituent",
+	    "description": "#note140",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 51.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note141",
+	    "type": "Constituent",
+	    "description": "#note141",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 51.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note142",
+	    "type": "Constituent",
+	    "description": "#note142",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a#3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 52,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note143",
+	    "type": "Constituent",
+	    "description": "#note143",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 52.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note144",
+	    "type": "Constituent",
+	    "description": "#note144",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 53,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note145",
+	    "type": "Constituent",
+	    "description": "#note145",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 53.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note146",
+	    "type": "Constituent",
+	    "description": "#note146",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 54,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note147",
+	    "type": "Constituent",
+	    "description": "#note147",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 54.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note148",
+	    "type": "Constituent",
+	    "description": "#note148",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 54.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note149",
+	    "type": "Constituent",
+	    "description": "#note149",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 54.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note150",
+	    "type": "Constituent",
+	    "description": "#note150",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 55,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note151",
+	    "type": "Constituent",
+	    "description": "#note151",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 56,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.4979,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note152",
+	    "type": "Constituent",
+	    "description": "#note152",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 57.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note153",
+	    "type": "Constituent",
+	    "description": "#note153",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 57.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note154",
+	    "type": "Constituent",
+	    "description": "#note154",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 57.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note155",
+	    "type": "Constituent",
+	    "description": "#note155",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 58,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.1646,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note156",
+	    "type": "Constituent",
+	    "description": "#note156",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 59.167,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note157",
+	    "type": "Constituent",
+	    "description": "#note157",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 59.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note158",
+	    "type": "Constituent",
+	    "description": "#note158",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 59.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note159",
+	    "type": "Constituent",
+	    "description": "#note159",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 59.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note160",
+	    "type": "Constituent",
+	    "description": "#note160",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 59.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note161",
+	    "type": "Constituent",
+	    "description": "#note161",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 60,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note162",
+	    "type": "Constituent",
+	    "description": "#note162",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 60.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note163",
+	    "type": "Constituent",
+	    "description": "#note163",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 60.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note164",
+	    "type": "Constituent",
+	    "description": "#note164",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 60.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note165",
+	    "type": "Constituent",
+	    "description": "#note165",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 61,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note166",
+	    "type": "Constituent",
+	    "description": "#note166",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 61.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note167",
+	    "type": "Constituent",
+	    "description": "#note167",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 61.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note168",
+	    "type": "Constituent",
+	    "description": "#note168",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 61.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.4146,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note169",
+	    "type": "Constituent",
+	    "description": "#note169",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 63.167,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note170",
+	    "type": "Constituent",
+	    "description": "#note170",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 63.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note171",
+	    "type": "Constituent",
+	    "description": "#note171",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 63.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note172",
+	    "type": "Constituent",
+	    "description": "#note172",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 63.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note173",
+	    "type": "Constituent",
+	    "description": "#note173",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 63.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note174",
+	    "type": "Constituent",
+	    "description": "#note174",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 64,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note175",
+	    "type": "Constituent",
+	    "description": "#note175",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 64.167,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note176",
+	    "type": "Constituent",
+	    "description": "#note176",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 64.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note177",
+	    "type": "Constituent",
+	    "description": "#note177",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 64.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note178",
+	    "type": "Constituent",
+	    "description": "#note178",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 64.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note179",
+	    "type": "Constituent",
+	    "description": "#note179",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 64.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note180",
+	    "type": "Constituent",
+	    "description": "#note180",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 65,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note181",
+	    "type": "Constituent",
+	    "description": "#note181",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 65.125,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note182",
+	    "type": "Constituent",
+	    "description": "#note182",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 65.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note183",
+	    "type": "Constituent",
+	    "description": "#note183",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 65.375,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note184",
+	    "type": "Constituent",
+	    "description": "#note184",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 65.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note185",
+	    "type": "Constituent",
+	    "description": "#note185",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 65.625,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note186",
+	    "type": "Constituent",
+	    "description": "#note186",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 65.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note187",
+	    "type": "Constituent",
+	    "description": "#note187",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 65.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note188",
+	    "type": "Constituent",
+	    "description": "#note188",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 66,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note189",
+	    "type": "Constituent",
+	    "description": "#note189",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 67,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note190",
+	    "type": "Constituent",
+	    "description": "#note190",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 67.125,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note191",
+	    "type": "Constituent",
+	    "description": "#note191",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 67.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note192",
+	    "type": "Constituent",
+	    "description": "#note192",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 67.375,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note193",
+	    "type": "Constituent",
+	    "description": "#note193",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 67.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note194",
+	    "type": "Constituent",
+	    "description": "#note194",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 67.625,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note195",
+	    "type": "Constituent",
+	    "description": "#note195",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 67.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note196",
+	    "type": "Constituent",
+	    "description": "#note196",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 67.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note197",
+	    "type": "Constituent",
+	    "description": "#note197",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 68,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.99792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note198",
+	    "type": "Constituent",
+	    "description": "#note198",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 69,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note199",
+	    "type": "Constituent",
+	    "description": "#note199",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 69.125,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note200",
+	    "type": "Constituent",
+	    "description": "#note200",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 69.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note201",
+	    "type": "Constituent",
+	    "description": "#note201",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 69.375,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note202",
+	    "type": "Constituent",
+	    "description": "#note202",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 69.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note203",
+	    "type": "Constituent",
+	    "description": "#note203",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 69.625,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note204",
+	    "type": "Constituent",
+	    "description": "#note204",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 69.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note205",
+	    "type": "Constituent",
+	    "description": "#note205",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 69.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note206",
+	    "type": "Constituent",
+	    "description": "#note206",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 70,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.49792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note207",
+	    "type": "Constituent",
+	    "description": "#note207",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 71,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.1625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note208",
+	    "type": "Constituent",
+	    "description": "#note208",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 71.165,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.1625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note209",
+	    "type": "Constituent",
+	    "description": "#note209",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 71.331,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.1625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note210",
+	    "type": "Constituent",
+	    "description": "#note210",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 71.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 2.4979,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note211",
+	    "type": "Constituent",
+	    "description": "#note211",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 74,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.7479,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note212",
+	    "type": "Constituent",
+	    "description": "#note212",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 75.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note213",
+	    "type": "Constituent",
+	    "description": "#note213",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 75.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note214",
+	    "type": "Constituent",
+	    "description": "#note214",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 76,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note215",
+	    "type": "Constituent",
+	    "description": "#note215",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 76.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note216",
+	    "type": "Constituent",
+	    "description": "#note216",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 76.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note217",
+	    "type": "Constituent",
+	    "description": "#note217",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 77,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note218",
+	    "type": "Constituent",
+	    "description": "#note218",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 77.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note219",
+	    "type": "Constituent",
+	    "description": "#note219",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 77.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note220",
+	    "type": "Constituent",
+	    "description": "#note220",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 77.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note221",
+	    "type": "Constituent",
+	    "description": "#note221",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 78,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.2479,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note222",
+	    "type": "Constituent",
+	    "description": "#note222",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 79.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note223",
+	    "type": "Constituent",
+	    "description": "#note223",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d6",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 79.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10417,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note224",
+	    "type": "Constituent",
+	    "description": "#note224",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c6",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 79.606,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.13958,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note225",
+	    "type": "Constituent",
+	    "description": "#note225",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 79.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note226",
+	    "type": "Constituent",
+	    "description": "#note226",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 80,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.7479,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note227",
+	    "type": "Constituent",
+	    "description": "#note227",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 81.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note228",
+	    "type": "Constituent",
+	    "description": "#note228",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 81.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note229",
+	    "type": "Constituent",
+	    "description": "#note229",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 82,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.74792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note230",
+	    "type": "Constituent",
+	    "description": "#note230",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 82.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note231",
+	    "type": "Constituent",
+	    "description": "#note231",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 82.875,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.12292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note232",
+	    "type": "Constituent",
+	    "description": "#note232",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 83,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note233",
+	    "type": "Constituent",
+	    "description": "#note233",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 83.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note234",
+	    "type": "Constituent",
+	    "description": "#note234",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d5",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 83.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note235",
+	    "type": "Constituent",
+	    "description": "#note235",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 83.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note236",
+	    "type": "Constituent",
+	    "description": "#note236",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 84,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note237",
+	    "type": "Constituent",
+	    "description": "#note237",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 84.167,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note238",
+	    "type": "Constituent",
+	    "description": "#note238",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 84.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note239",
+	    "type": "Constituent",
+	    "description": "#note239",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 84.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note240",
+	    "type": "Constituent",
+	    "description": "#note240",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 84.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note241",
+	    "type": "Constituent",
+	    "description": "#note241",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 84.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note242",
+	    "type": "Constituent",
+	    "description": "#note242",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 85,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note243",
+	    "type": "Constituent",
+	    "description": "#note243",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 85.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note244",
+	    "type": "Constituent",
+	    "description": "#note244",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 85.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note245",
+	    "type": "Constituent",
+	    "description": "#note245",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 85.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note246",
+	    "type": "Constituent",
+	    "description": "#note246",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 86,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note247",
+	    "type": "Constituent",
+	    "description": "#note247",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 86.167,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note248",
+	    "type": "Constituent",
+	    "description": "#note248",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 86.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note249",
+	    "type": "Constituent",
+	    "description": "#note249",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 86.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note250",
+	    "type": "Constituent",
+	    "description": "#note250",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 86.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note251",
+	    "type": "Constituent",
+	    "description": "#note251",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 86.833,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.16458,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note252",
+	    "type": "Constituent",
+	    "description": "#note252",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 87,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note253",
+	    "type": "Constituent",
+	    "description": "#note253",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 87.25,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note254",
+	    "type": "Constituent",
+	    "description": "#note254",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 87.5,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.24792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note255",
+	    "type": "Constituent",
+	    "description": "#note255",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 87.75,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.2479,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note256",
+	    "type": "Constituent",
+	    "description": "#note256",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 89,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note257",
+	    "type": "Constituent",
+	    "description": "#note257",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "e4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 89.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10625,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note258",
+	    "type": "Constituent",
+	    "description": "#note258",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 89.442,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.22292,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note259",
+	    "type": "Constituent",
+	    "description": "#note259",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 89.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note260",
+	    "type": "Constituent",
+	    "description": "#note260",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 90,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 2.3313,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note261",
+	    "type": "Constituent",
+	    "description": "#note261",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 92.333,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note262",
+	    "type": "Constituent",
+	    "description": "#note262",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 92.667,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.33125,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note263",
+	    "type": "Constituent",
+	    "description": "#note263",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 93,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 1.9979,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note264",
+	    "type": "Constituent",
+	    "description": "#note264",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "a4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 95,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 3.3979,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note265",
+	    "type": "Constituent",
+	    "description": "#note265",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "g4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 98.4,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.39792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note266",
+	    "type": "Constituent",
+	    "description": "#note266",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "f4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 98.8,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.39792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note267",
+	    "type": "Constituent",
+	    "description": "#note267",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "d#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 99.2,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.39792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note268",
+	    "type": "Constituent",
+	    "description": "#note268",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 99.6,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.39792,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note269",
+	    "type": "Constituent",
+	    "description": "#note269",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "c#4",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 100,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 0.10417,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	},
+	{
+	    "id": "#note270",
+	    "type": "Constituent",
+	    "description": "#note270",
+	    "pitch": {
+		"adt": "Pitch",
+		"value": "b3",
+		"cdt": "stringPitch"
+	    },
+	    "time": {
+		"value": 100.11,
+		"adt": "Time",
+		"cdt": "midiBeats"
+	    },
+	    "duration": {
+		"value": 2.8896,
+		"adt": "Duration",
+		"cdt": "midiBeats"
+	    }
+	}
+    ]
+}

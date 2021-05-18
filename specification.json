@@ -1,0 +1,40 @@
+{
+    "context": "",
+    "id": "",
+    "type": "specification",
+    "types": [
+	"time_point",
+	"time_interval",
+	"pitch",
+	"pitch_interval"
+	"id",
+	"struc",
+	"cobj",
+    ],
+    "operations": [
+	{"id":"lookup",
+	 "hasType":{
+	     "domain": ["uid","struc"],
+	     "codom":{"some":"cobj"}}},
+	{"id":"get_onset",
+	 "hasType":{
+	     "domain": ["cobj"],
+	     "codom":{"some":"time_point"}}},
+	{"id":"get_duration",
+	 "hasType":{
+	     "domain": ["cobj"],
+	     "codom":{"some":"time_interval"}}},
+	{"id":"get_pitch",
+	 "hasType":{
+	     "domain": ["cobj"],
+	     "codom":{"some":"pitch_point"}}},
+	{"id":"domain",
+	 "hasType":{
+	     "domain": ["struc"],
+	     "codomain": {"list":"uid"}}},
+	{"id":"data",
+	 "hasType":{
+	     "domain": [],
+	     "codomain": "struc"}},	
+    ]
+}
