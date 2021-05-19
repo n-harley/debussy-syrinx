@@ -1,50 +1,49 @@
 import music21
-import re
 
-data = music21.converter.parse('syrinx.mxl')
-#measures = data[1].elements[1:]
-notes = [n for n in data[1].flat.notes]
-note_ids = [ns+'note'+str(i) for i,n in enumerate(notes)] 
-print(notes[2].offset)
+Stream = music21.stream.Stream
+Measure = music21.stream.Measure
+Note = music21.note.Note
 
+raw = music21.converter.parse('syrinx.xml')
 
+elems = raw.semiFlat
+
+notes = Stream([n for n in elems if isinstance(n,Note)])
+measures = Stream([m for m in elems if isinstance(m,Measure)])
+syrinx = Stream([notes,measures])
+
+notes.id = "syrinx/notes/"
+measures.id = "syrinx/measures/"
+syrinx.id = 'syrinx/'
+
+for i,n in enumerate(notes.elements):
+  n.id = "syrinx/notes/"+str(i+1)
+
+for m in measures.elements[1:]:
+  m.id = "syrinx/measures/"+str(m.number)
+
+S = { v.id: v for v in elems }
+S[notes.id] = notes
+S[measures.id] = measures
+S[syrinx.id] = syrinx
+
+def domain(S):
+  S.keys()
 
 def lookup(x,s):
-  m = None
-  n = None
-  xs = x.split('/')
-  if xs[1] == 'syrinx':
-    if xs[2]:
-      m = xs[2]
-      m = int(m[m.find("[")+1:m.find("]")])
-    if xs[3]:
-      n = xs[3]
-      n = int(n[n.find("[")+1:n.find("]")])
-  else:
-    return None
-
-  if n > len(s.notes):
-    return None
-  return s[1][int(m)][int(n)+3]
-    
-def domain(s):
-  
-    
+  return s.get(x)
 
 def get_pitch(o):
-    return 1
+  return o.pitch
 
 def get_onset(o):
-    return 1
-
+  return o.offset
+  
 def get_duration(o):
-    return 1
+  return o.duration.type
 
 def get_particles(o):
-    return 1
-
-def get(a):
-    return lambda o : 1 
-
-
-#print(lookup("/syrinx/measure[1]/note[]",data))
+  if isinstance(o,music21.stream.Stream):
+    return [e.id for e in o.elements]
+  else:
+    return []
