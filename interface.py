@@ -4,9 +4,9 @@ Stream = music21.stream.Stream
 Measure = music21.stream.Measure
 Note = music21.note.Note
 
-raw = music21.converter.parse('syrinx.xml')
+data = music21.converter.parse('syrinx.xml')
 
-elems = raw.semiFlat
+elems = data.semiFlat
 
 notes = Stream([n for n in elems if isinstance(n,Note)])
 measures = Stream([m for m in elems if isinstance(m,Measure)])
