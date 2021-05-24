@@ -8,4 +8,4 @@ an example abstract representation of music using [CHAKRA](https://n-harley.gith
 - The Interface is [here]()
 - The Specification is [here]()
 
-<embed src="https://n-harley.github.io/debussy-syrinx/syrinx.pdf" type="application/pdf" width="700px"/>
+<embed src="https://n-harley.github.io/debussy-syrinx/syrinx.pdf" type="application/pdf" width="700%" height="700px"/>
